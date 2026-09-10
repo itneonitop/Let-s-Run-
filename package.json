@@ -1,0 +1,14 @@
+{
+  "name": "lets-run-server",
+  "version": "1.0.0",
+  "description": "Dedicated multiplayer server for Let's Run game",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
